@@ -1,0 +1,52 @@
+.appointment__form {
+  width: 585px;
+  height: 640px;
+  padding: 76px 57px;
+  border-radius: 40px;
+  text-align: center;
+}
+
+.appointment__form > form {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 224px 224px;
+  grid-template-rows: 48px 48px;
+  grid-gap: 22px;
+  margin-top: 43px;
+}
+
+.appointment__form > form input {
+  width: 224px;
+  height: 48px;
+  border: solid white 1px;
+  border-radius: 10px;
+  outline: none;
+  font-size: 16px;
+  padding: 0 20px;
+}
+
+.appointment__form > form input::placeholder {
+  color: white;
+}
+
+.appointment__form > form input[type="submit"] {
+  grid-column: 2;
+  width: 210px;
+  border: none;
+}
+
+.appointment__form > form textarea {
+  grid-column: 1 / span 2;
+  width: 470px;
+  height: 180px;
+  border: solid white 1px;
+  border-radius: 10px;
+  padding: 17px 23px;
+  font-size: 16px;
+  outline: none;
+  resize: none;
+}
+
+.appointment__form > form textarea::placeholder {
+  color: white;
+}

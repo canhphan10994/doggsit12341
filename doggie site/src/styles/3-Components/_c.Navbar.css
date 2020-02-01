@@ -1,0 +1,49 @@
+.navBar {
+  background: white;
+  width: 100%;
+  max-width: 1020px;
+  max-height: 60px;
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.navBar > nav {
+  padding: 10px;
+}
+
+.navBar > nav > ul > li {
+  display: inline;
+  margin: 0px 18.5px;
+  height: 40px;
+  width: 60px;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.15px;
+  font-weight: 600;
+
+  padding: 10px 0px;
+}
+
+.navBar__search {
+  margin-left: auto;
+}
+
+.navBar__cart {
+  margin-right: 48px;
+  margin-left: 22px;
+}
+
+.navBar a {
+  color: black;
+}
+
+.navBar a:hover {
+  color: #f2726f;
+}
+
+.navBar a:active {
+  background: -webkit-linear-gradient(right, #dc4946, #f2726f, #ffc533);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

@@ -1,0 +1,45 @@
+h1 {
+  font-size: 56px;
+  line-height: 56px;
+}
+
+h2 {
+  font-size: 42;
+  line-height: 48px;
+}
+
+h3 {
+  font-size: 36px;
+  line-height: 42px;
+}
+
+h4 {
+  font-size: 30px;
+  line-height: 36px;
+}
+
+h5 {
+  font-size: 24px;
+  line-height: 30px;
+}
+
+h6 {
+  font-size: 19px;
+  line-height: 26px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}

@@ -1,0 +1,89 @@
+.featureBlock-top {
+  width: 237px;
+  height: 240px;
+  text-align: center;
+}
+
+.featureBlock-top > img {
+  height: 63px;
+  width: 63px;
+}
+
+.featureBlock-top > h6 {
+  font-size: 19px;
+  font-weight: bold;
+  padding: 33px 0 20px 0;
+}
+
+.featureBlock-top > p {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.featureBlock-side {
+  width: 324px;
+  height: 148px;
+  border: solid 1px;
+  display: flex;
+}
+
+.featureBlock-side > img {
+  margin-right: 23px;
+  width: 63px;
+  height: 63px;
+  border: solid 1px;
+}
+
+.featureBlock-side .boxContent h6 {
+  padding-bottom: 20px;
+  font-size: 19px;
+}
+
+.featureBlock-side .boxContent > p {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.testimonialBlock {
+  width: 237px;
+  height: 250px;
+}
+
+.testimonialBlock p {
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 18px;
+}
+
+.testimonialBlock__info {
+  display: flex;
+  align-items: center;
+}
+
+.testimonialBlock__info img {
+  margin-right: 17px;
+}
+
+.testimonialBlock__info > p {
+  font-weight: bold;
+  line-height: 24px;
+}
+
+.statBlock {
+  width: 237px;
+  height: 76px;
+  display: flex;
+}
+
+.statBlock img {
+  margin-right: 11px;
+}
+
+.statBlock .statBlock__content h3 {
+  font-size: 36px;
+  font-weight: bold;
+}
+.statBlock .statBlock__content p {
+  font-size: 16px;
+  line-height: 24px;
+}

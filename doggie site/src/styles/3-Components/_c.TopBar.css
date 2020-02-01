@@ -1,0 +1,38 @@
+.topNav {
+  width: 100%;
+  max-width: 1020px;
+  max-height: 128px;
+  display: flex;
+  margin-bottom: 28px;
+}
+
+.topNav__utility {
+  margin-left: auto;
+}
+
+.utility {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  color: #fff;
+  letter-spacing: 0.15px;
+}
+
+.utility li {
+  font-size: 12px;
+  display: flex;
+  line-height: 22px;
+}
+
+.utility span {
+  margin-right: 10px;
+}
+
+.utility__phone {
+  margin-left: 30px;
+  margin-right: 32px;
+}
+
+.d-block {
+  display: block;
+}
